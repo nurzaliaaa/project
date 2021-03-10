@@ -1,0 +1,44 @@
+
+<ion-content padding class="background">
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+    <ion-fab-button color="dark" [routerLink]="['/choose']">
+      <ion-icon name="home-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-grid id="notes">
+    <ion-row>
+      <ion-col>
+        <img src="../assets/img/N.png">
+      </ion-col>
+      <ion-col>
+        <img src="../assets/img/O.png">
+      </ion-col>
+      <ion-col>
+        <img src="../assets/img/T.png">
+      </ion-col>
+      <ion-col>
+        <img src="../assets/img/E.png">
+      </ion-col>
+      <ion-col>
+        <img src="../assets/img/S.png">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid id="buttons">
+    <ion-row>
+      <img src="../assets/img/add.png" id="add" [routerLink]="['/addition']">
+    </ion-row><br>
+    <ion-row>
+      <img src="../assets/img/sub.png" id="sub" [routerLink]="['/subs']">
+    </ion-row><br>
+    <ion-row>
+      <img src="../assets/img/mul.png" id="mul" [routerLink]="['/multiple']">
+    </ion-row><br>
+    <ion-row>
+      <img src="../assets/img/div.png" id="div" [routerLink]="['/divide']">
+    </ion-row>
+  </ion-grid>
+
+ </ion-content>

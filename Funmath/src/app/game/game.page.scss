@@ -1,0 +1,28 @@
+ion-content.background{
+    //--ion-background-color: #81A8E5;
+    --background: none;
+    background: url("../../assets/img/bg.png") no-repeat fixed center;
+    background-size: cover;
+  }
+
+  #game{
+    width: 200px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 45px;
+  }
+
+#choose{
+    width:260px;
+    height:280px;
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-bottom:60px;
+  }
+
+  #game3{
+    width:260px;
+    margin-top: 595px;
+    margin-left: 15px;
+    margin-bottom:60px;
+  }

@@ -1,0 +1,29 @@
+<ion-content padding class="background">
+
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+    <ion-fab-button color="dark" [routerLink]="['/choose']">
+      <ion-icon name="home-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  
+  <img src="assets/img/exercise.png" id="exercise">
+  
+    <div id="easy">
+      <a [routerLink]="['/qsube']">
+        <img src='assets/img/easy.png'  />
+     </a>
+    </div>
+  
+    <div id="medium">
+      <a [routerLink]="['/qsubm']">
+        <img src='assets/img/medium.png'  />
+     </a>
+    </div>
+  
+    <div id="hard">
+      <a [routerLink]="['/qsubh']">
+        <img src='assets/img/hard.png'  />
+     </a>
+    </div>
+  
+  </ion-content>

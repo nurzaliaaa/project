@@ -1,0 +1,41 @@
+<ion-content padding class="background" fullscreen>
+
+  <img src="assets/img/bears.png" id="bears">
+  <img src="assets/img/funmath.png" id="logo">
+
+  <div id="operation" >
+    <ion-grid >
+      <ion-row>
+        <ion-col [routerLink]="['/add']">
+         <img src='assets/img/addition.png'  />
+        </ion-col>
+        <ion-col [routerLink]="['/subt']">
+           <img src='assets/img/subtraction.png'  />
+        </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col [routerLink]="['/div']">
+       <img src='assets/img/division.png'  />
+      </ion-col>
+      <ion-col [routerLink]="['/mul']">
+         <img src='assets/img/multiple.png'  />
+      </ion-col>
+  </ion-row>
+   </ion-grid>
+  </div>
+
+  <div id="setting">
+    <ion-button color="dark" [routerLink]="['/setting']"><ion-icon name="information-circle-outline"></ion-icon>
+    </ion-button>
+  </div>
+
+  <div id="game">
+    <ion-button color="dark" [routerLink]="['/game']" ><ion-icon name="game-controller-outline"></ion-icon></ion-button>
+</div>
+
+<div id="note">
+  <ion-button color="dark" [routerLink]="['/note']" ><ion-icon name="book-outline"></ion-icon></ion-button>
+</div>
+
+</ion-content>
